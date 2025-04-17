@@ -9,7 +9,7 @@ public:
     void __init__() {
         self.name = "Shreyash";
         self.username = "@shreyashg07";
-        self.alias = "CyberHive";  // Updated alias
+        self.alias = "CyberHive";  
         self.identity = {
             "Security Researcher",
             "Ethical Hacker",
@@ -18,8 +18,6 @@ public:
             "Digital Forensics Enthusiast"
         };
         self.pronouns = "he/him";
-        self.clearance = "Top Secret 🕵️‍♂️";
-        self.threat_level = "Critical 🔥";
         self.arsenal = {
             "Penetration Testing",
             "Network Exploitation",
