@@ -1,4 +1,4 @@
-```bash
+```c
 class Identity:
     def __init__(self):
         self.name = "Shreyash"
