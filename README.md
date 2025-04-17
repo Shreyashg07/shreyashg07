@@ -1,16 +1,44 @@
-## Hi there 👋
+class Identity:
+    def __init__(self):
+        self.name = "Shreyash"
+        self.username = "@shreyashg07"
+        self.alias = "CyberHive"  # Updated alias
+        self.identity = [
+            "Security Researcher",
+            "Ethical Hacker",
+            "VAPT Specialist",
+            "Bug Bounty Hunter",
+            "Digital Forensics Enthusiast"
+        ]
+        self.pronouns = "he/him"
+        self.clearance = "Top Secret 🕵️‍♂️"
+        self.threat_level = "Critical 🔥"
+        self.arsenal = [
+            "Penetration Testing",
+            "Network Exploitation",
+            "Digital Forensics",
+            "Reverse Engineering"
+        ]
+        self.active_ops = [
+            "Bug Bounty Recon",
+            "CTF Challenges",
+            "Malware Analysis"
+        ]
 
-<!--
-**Shreyashg07/shreyashg07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def whoami(self):
+        profile = f"""
+        ┌─[👨‍💻 {self.name}] - [{self.username}]
+        ├─ Alias: {self.alias}
+        ├─ Identity: {', '.join(self.identity)}
+        ├─ Pronouns: {self.pronouns}
+        ├─ Clearance: {self.clearance}
+        ├─ Threat Level: {self.threat_level}
+        ├─ Arsenal: {', '.join(self.arsenal)}
+        ├─ Active Ops: {', '.join(self.active_ops)}
+        └─ Status: 1337 (Elite)
+        """
+        return profile
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+if __name__ == "__main__":
+    cyberhive = Identity()  # Changed variable name to CyberHive
+    print(cyberhive.whoami())
