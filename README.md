@@ -74,3 +74,4 @@ class Identity:
 if __name__ == "__main__":
     cyberhive = Identity()  # Changed variable name to CyberHive
     print(cyberhive.whoami())
+
